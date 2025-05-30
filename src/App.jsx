@@ -1,15 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import ALC from "./pages/ALC";
 
 function App() {
-
   return (
-    <div className="h-screen flex items-center justify-center bg-green-100">
-      <h1 className="text-4xl font-bold text-purple-600">Hello Portfolio!</h1>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path ="/about" element={<About/>}/>
+          <Route path="/alc" element={<ALC/>}/>
+        </Routes>
+      </main>
+
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
