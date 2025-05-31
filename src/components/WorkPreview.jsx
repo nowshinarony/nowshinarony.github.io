@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const WorkPreview = () => {
   return (
     <section className="w-full px-6 text-center">
-      <div className="flex justify-center">
+      <div className="flex justify-center fade-slide">
         <Link to="/alc">
           <img
             src="./ALCS-Cover.png"

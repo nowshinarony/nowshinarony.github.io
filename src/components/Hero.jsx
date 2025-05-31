@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="w-full px-6 py-16 text-center">
+    <section className="w-full px-6 py-16 text-center fade-slide">
       <h1 className="text-xl md:text-3xl font-semibold mb-10">
         <div className="leading-relaxed">
           UX Practitioner simplifying complex workflows into <br />

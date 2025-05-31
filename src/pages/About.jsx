@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="px-6 py-16 max-w-6xl mx-auto">
+    <section className="px-6 py-16 max-w-6xl mx-auto fade-slide">
       <div className="flex flex-col-reverse md:flex-row items-start gap-12">
         
         <div className="md:w-2/3 text-left">
