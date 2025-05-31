@@ -34,8 +34,8 @@ const ALC = () => {
 
         <p className="mt-6 text-gray-700 leading-relaxed">
           As the UX Practitioner on the Agricultural Land Commission (ALC)
-          project, I worked on their internal staff system and the external
-          user-facing portal.
+          project, I worked on their internal <strong>application tracking system</strong> and the external
+          user-facing <strong>application portal</strong>.
         </p>
 
         <p className="mt-6 text-gray-700 leading-relaxed">

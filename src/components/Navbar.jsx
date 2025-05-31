@@ -22,13 +22,13 @@ const Navbar = () => {
         {/* Menu Items */}
         <div className="hidden md:flex space-x-16">
           <Link to="/about">About</Link>
-          <a
+          {/* <a
             href="https://youtu.be/XP_RAhnS1e8?si=4sP49BpVGB1hYGJi"
             target="_blank"
             rel="noopener noreferrer"
           >
             Intro Video
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/nna01/"
             target="_blank"
@@ -62,12 +62,12 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden mt-4 space-y-4 text-center">
           <Link to="/about" className="text-gray-800">About</Link>
-          <a
+          {/* <a
             href="https://youtu.be/XP_RAhnS1e8?si=4sP49BpVGB1hYGJi"
             className="block text-gray-800"
           >
             Intro Video
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/nna01/"
             target="_blank"

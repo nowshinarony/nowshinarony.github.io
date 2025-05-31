@@ -3,8 +3,8 @@ const Hero = () => {
     <section className="w-full px-6 py-16 text-center fade-slide">
       <h1 className="text-xl md:text-3xl font-semibold mb-10">
         <div className="leading-relaxed">
-          UX Practitioner simplifying complex workflows into <br />
-          simple, developer-friendly solutions that drive business goals.
+          UX Practitioner simplifying complex enterprise systems into clean,<br/>
+           intuitive experiences — built for developers, designed for impact.
         </div>
       </h1>
 
