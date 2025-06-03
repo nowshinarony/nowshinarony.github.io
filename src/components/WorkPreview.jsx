@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const WorkPreview = () => {
   return (
-    <section className="w-full px-6 text-center">
+    <section className="w-full px-6 pb-16 text-center bg-white dark:dark:bg-black">
       <div className="flex justify-center fade-slide">
         <Link to="/alc">
           <img

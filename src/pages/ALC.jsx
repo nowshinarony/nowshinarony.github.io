@@ -2,7 +2,7 @@ import SectionContainer from "../components/SectionContainer";
 
 const ALC = () => {
   return (
-    <section className="py-12 fade-slide">
+    <section className="py-12 fade-slide  bg-white dark:bg-black  text-gray-700 dark:text-gray-100">
       <SectionContainer>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
           <h1 className="text-3xl md:text-4xl font-bold">
@@ -15,7 +15,7 @@ const ALC = () => {
           />
         </div>
 
-        <div className="space-y-1 text-gray-700 text-base leading-relaxed">
+        <div className="space-y-1 text-gray-700 dark:text-gray-100 text-base leading-relaxed">
           <p>
             <strong>Ministry:</strong> Ministry of Water, Land and Resource
             Stewardship (WLRS)
@@ -32,13 +32,13 @@ const ALC = () => {
           </p>
         </div>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6  text-gray-700 dark:text-gray-100 leading-relaxed">
           As the UX Practitioner on the Agricultural Land Commission (ALC)
           project, I worked on their internal <strong>application tracking system</strong> and the external
           user-facing <strong>application portal</strong>.
         </p>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6  text-gray-700 dark:text-gray-100 leading-relaxed">
           My work involved developing artifacts and designs on Figma to simplify
           complex workflows, improve usability, and ensure all designs aligned
           with technical constraints and business goals. I followed WCAG 2.1
@@ -48,7 +48,7 @@ const ALC = () => {
 
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">What is ALC?</h2>
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6  text-gray-700 dark:text-gray-100 leading-relaxed">
           <strong>Less than 5% of B.C.'s land</strong> is suitable for farming.
           The Agricultural Land Commission (ALC) of British Columbia manages
           land use across the province’s Agricultural Land Reserve (ALR),
@@ -62,7 +62,7 @@ const ALC = () => {
             alt="BC's Protected Farm Lands from 1973 to 2014"
             className="mx-auto w-96 py-8"
           />
-          <figcaption className="mt-2 text-sm text-gray-600 italic">
+          <figcaption className="mt-2 text-sm text-gray-600 dark:text-gray-100 italic">
             <a
               href="https://watershedsentinel.ca/article/bc-protected-farm-land-changes/"
               target="_blank"
@@ -74,12 +74,12 @@ const ALC = () => {
           </figcaption>
         </figure>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           Through the ALC portal, landowners submit applications for things like
           subdividing farmland, building homes, or requesting non-farm uses.
         </p>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           These applications are reviewed by staff using an internal system to
           ensure agricultural land is protected and used responsibly. Because
           these decisions directly affect food security, land development, and
@@ -95,7 +95,7 @@ const ALC = () => {
         </h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-2/3">
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               As the sole UX practitioner, I collaborated closely with the
               Product Owner to understand goals and priorities, and with
               Developers to ensure my designs were technically feasible and
@@ -125,7 +125,7 @@ const ALC = () => {
           className="mx-auto w-2/3 py-8"
         />
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           As part of the ALC team, I contributed to multiple features to improve
           the ALC system. Below, I outline a case study that is one of several
           works I have delivered.
@@ -137,7 +137,7 @@ const ALC = () => {
         <h1 className="text-3xl md:text-4xl font-bold">
           Example Case Study with ALC
         </h1>
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           This case study showcases how I designed a new end-to-end digital
           workflow for the Compliance & Enforcement (C&E) team at ALC. Before
           this, C&E officers were not using the ALC system at all. I integrated
@@ -152,13 +152,13 @@ const ALC = () => {
         </h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-2/3">
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               The C&E team at ALC ensure that land within the Agricultural Land
               Reserve (ALR) is used appropriately by investigating complaints,
               conducting inspections, and enforcing regulations.
             </p>
 
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               <strong>C&E team:</strong> 6 officers, 1 intake technician, and 1
               supervisor
             </p>
@@ -178,7 +178,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">User Persona</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           I began with a user persona to build empathy and ensure the designs
           were grounded in real user behaviors and frustrations. This helped
           align the product vision with the users’ mental models and daily
@@ -196,7 +196,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Journey Map</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           To identify key pain points, I created a journey map outlining each
           step officers take after a site visit. It became clear that the most
           time-consuming and error-prone part was logging evidence. Officers had
@@ -217,17 +217,17 @@ const ALC = () => {
         <h2 className="text-2xl md:text-3xl font-bold">Problem Statement</h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-2/3">
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               C&E officers are already responsible for critical tasks like land
               inspections, enforcement actions, and ensuring proper land use.
             </p>
 
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               However, the tools meant to support their work have added more
               complexity rather than reducing it.
             </p>
 
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               With 928 active files and a 141% spike in enforcement actions in
               2023–2024, the current setup no longer scales. Officers spend more
               time recording work than on their actual tasks.
@@ -249,7 +249,7 @@ const ALC = () => {
           They juggle between multiple disconnected systems:
         </h2>
 
-        <ul className="list-disc mt-8 pl-6 text-gray-700 space-y-6">
+        <ul className="list-disc mt-8 pl-6 text-gray-700 dark:text-gray-100 space-y-6">
           <li>
             <strong>NRIS (Natural Resource Inspection System):</strong>
             <br />A shared, province-wide platform intended to standardize
@@ -280,13 +280,13 @@ const ALC = () => {
         <h2 className="text-2xl md:text-3xl font-bold">Need Statement</h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-2/3">
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               Therefore, there is a clear need for a simplified, user-friendly
               system that brings together all aspects of the C&E workflow into
               one place.
             </p>
 
-            <p className="mt-6 text-gray-700 leading-relaxed">
+            <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
               By reducing tool-switching and redundant data entry, officers can
               focus on timely response, better compliance enforcement, and
               upholding land protection regulations.
@@ -307,7 +307,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Task Flow</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           To meet this need, I mapped out how officers interact with complaints.
           A key finding from the journey map was an entry point used to log
           daily actions taken on a file, officers refer to this as the
@@ -326,14 +326,14 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Wireframe</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           Using the task flow as a guide, I created wireframes in Figma to
           visualize each step in the complaint handling process. These
           wireframes helped drive collaborative sessions with the PO and
           officers, helping us validate ideas and adjust flows early on.
         </p>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           Here I present some samples of the several wireframes..
         </p>
 
@@ -359,7 +359,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Hi-fidelity Designs</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           I translated the wireframes into polished, dev-ready designs.
           Throughout this project, I tackled over 30 design tickets.
         </p>
@@ -370,7 +370,7 @@ const ALC = () => {
           Design System Alignment
         </h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           All designs were created using Angular Material components to align
           with the development stack, reduce custom code, and ensure a
           consistent user experience. I reused components like input fields and
@@ -378,7 +378,7 @@ const ALC = () => {
           design system.
         </p>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           In addition, I created new reusable Figma components such as a header,
           side navigation bar, C&E action buttons and pop-up modal designs.
         </p>
@@ -406,7 +406,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">What I Designed</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           Over the course of this project, I tackled 30+ design tickets, each
           aimed at unifying and simplifying C&E workflows. Rather than listing
           every ticket, here’s how I approached the work by problem area:
@@ -419,7 +419,7 @@ const ALC = () => {
           1. Creating & Managing C&E Files
         </h3>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           The system begins with entering a complaint. I designed screens for
           creating, saving, editing, and assigning files. These actions
           previously required folders, Word docs, and Access updates. Now,
@@ -444,7 +444,7 @@ const ALC = () => {
           2. Chronology Tracking
         </h3>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           Previously tracked in Word, the Chronology is now a structured,
           expandable log within each complaint file. Officers can add entries,
           upload documents, and view a clear timeline. No more manual tracking!
@@ -474,7 +474,7 @@ const ALC = () => {
           3. Searching & Organizing Complaints
         </h3>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           To help officers find what they need faster, I also added images tab,
           advanced search, and tagging features. These allow officers to quickly
           locate complaints, filter by status or assignment, and reassign files
@@ -493,7 +493,7 @@ const ALC = () => {
           4. Linking Across Systems
         </h3>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           To reduce toggling, I added the ability to link complaints to related
           application types like Notice of Intent. Officers can now see the full
           context of a case without leaving the system.
@@ -510,7 +510,7 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Iterations</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           I conducted several rounds of iteration for each hi-fi prototype
           screen. Some required minor tweaks, while others involved complete
           redesigns. On average, screens went through 5–6 iterations based on
@@ -523,14 +523,14 @@ const ALC = () => {
       <SectionContainer>
         <h2 className="text-2xl md:text-3xl font-bold">Conclusion</h2>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           This redesigned workflow is now in development and will launch in Fall
           2025. Once live, it’s expected to cut logging time in half, reduce
           tool-switching, and allow officers to focus on what matters most,
           protecting BC’s agricultural land.
         </p>
 
-        <p className="mt-6 text-gray-700 leading-relaxed">
+        <p className="mt-6 text-gray-700 dark:text-gray-100 leading-relaxed">
           During a user testing session, one officer said, "I can’t wait to
           start using this system!”
         </p>
@@ -543,7 +543,7 @@ const ALC = () => {
           Skills I Strengthened during my time with ALC
         </h2>
 
-        <ul className="list-disc mt-8 pl-6 text-gray-700 space-y-6">
+        <ul className="list-disc mt-8 pl-6 text-gray-700 dark:text-gray-100 space-y-6">
           <li>
             <strong>Collaboration:</strong> From day one, I collaborated with
             the Product Owner and developers to align designs with technical

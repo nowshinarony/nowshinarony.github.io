@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="w-full px-6 py-16 text-center fade-slide">
+    <section className="w-full px-6 py-16 text-center fade-slide bg-white text-gray-800 dark:bg-black dark:text-gray-100">
       <h1 className="text-xl md:text-3xl font-semibold mb-10">
         <div className="leading-relaxed">
           UX Practitioner simplifying complex enterprise systems into clean,<br/>
@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
       </p>
 
-      <h1 className="text-xl md:text-3xl font-semibold mt-14">
+      <h1 className="text-xl md:text-3xl font-semibold mt-32">
         <div className="leading-relaxed">
           Take a look at my work
         </div>
